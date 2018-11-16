@@ -1,0 +1,35 @@
+{
+  "fields": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "minLength": 3,
+        "description": "Please enter your name"
+      },
+      "UKWN-PROP-12": {
+        "type": "string",
+        "enum": ["Ms", "Mrs", "Miss", "M.", "Other"]
+      },
+      "mailing-address": {
+        "type": "string"
+      },
+      "community": {
+        "type": "string"
+      }
+    }
+  },
+  "ui": {
+    "type": "VerticalLayout",
+    "elements": [
+      {
+        "type": "Control",
+        "scope": "#/properties/name"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/UKWN-PROP-12"
+      }
+    ]
+  }
+}
