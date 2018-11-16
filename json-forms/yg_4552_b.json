@@ -18,12 +18,16 @@
         "type": "string"
       }
       },
-      "Territory/province/country";{
+      "Territory/province/country":{
        "type": "string"
       }
       }'
       "Postal-code":{
-        "type": "
+        "type": "string"
+      }
+      },
+      "Telephone-(day)": {
+        "type": 
     }
   },
   "ui": {
