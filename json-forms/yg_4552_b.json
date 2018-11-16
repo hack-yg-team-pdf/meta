@@ -27,7 +27,16 @@
       }
       },
       "Telephone-(day)": {
-        "type": 
+        "type": "telephone"
+      }
+      },
+      "(alternate)": {
+        "type": "telephone"
+      }
+      },
+      "Fax": {
+        "type": "telephone"
+      }
     }
   },
   "ui": {
