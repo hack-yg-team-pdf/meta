@@ -21,7 +21,7 @@
       "Territory/province/country":{
        "type": "string"
       }
-      }'
+      },
       "Postal-code":{
         "type": "string"
       }
