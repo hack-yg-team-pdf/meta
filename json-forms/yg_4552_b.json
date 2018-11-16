@@ -14,9 +14,16 @@
       "mailing-address": {
         "type": "string"
       },
-      "community": {
+      "City-or-town": {
         "type": "string"
       }
+      },
+      "Territory/province/country";{
+       "type": "string"
+      }
+      }'
+      "Postal-code":{
+        "type": "
     }
   },
   "ui": {
