@@ -26,20 +26,26 @@
         "type": "string"
       }
       },
-      "Telephone-(day)": {
-        "type": "telephone"
+      "Telephone": {
+        "type": "string", 
+        "format": "telephone",
+        "description": "daytime-telephone-number",
       }
       },
-      "(alternate)": {
-        "type": "telephone"
+      "telephone-alt": {
+        "type": "string", 
+        "format": "telephone",
+        "description": "alternate-telephone-number",
       }
       },
       "Fax": {
-        "type": "telephone"
+        "type": "string",
+        "format": "telephone"
       }
       }
-      "Name-of-public-body-(department,-corporation-or-agency)-Please-complete-a-seperat-form-for-each-public-body)": {
-        "type": "string"
+      "Name-of-public-body": {
+        "type": "string",
+        "description": "(department,-corporation-or-agency)-Please-complete-a-seperate-form-for-each-public-body)",
       }
       }
       "Information requested": {
@@ -50,6 +56,10 @@
         "type": "string",
         "enum": ["Examine-original", "Receive-copy"]
       },
+      },
+      "Date-signed": {
+        "type": "string",
+        "format":"date"
     }
   },
   "ui": {
