@@ -37,6 +37,10 @@
       "Fax": {
         "type": "telephone"
       }
+      }
+      "Name-of-public-body": {
+        "type": "string"
+      }
     }
   },
   "ui": {
