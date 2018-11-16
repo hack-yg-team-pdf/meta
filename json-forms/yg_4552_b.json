@@ -14,19 +14,19 @@
       "mailing-address": {
         "type": "string"
       },
-      "City-or-town": {
+      "city-or-town": {
         "type": "string"
       }
       },
-      "Territory/province/country":{
+      "territory/province/country":{
        "type": "string"
       }
       },
-      "Postal-code":{
+      "postal-code":{
         "type": "string"
       }
       },
-      "Telephone": {
+      "telephone": {
         "type": "string", 
         "format": "telephone",
         "description": "daytime-telephone-number",
@@ -38,28 +38,46 @@
         "description": "alternate-telephone-number",
       }
       },
-      "Fax": {
+      "fax": {
         "type": "string",
         "format": "telephone"
       }
       }
-      "Name-of-public-body": {
+      "name-of-public-body": {
         "type": "string",
         "description": "(department,-corporation-or-agency)-Please-complete-a-seperate-form-for-each-public-body)",
       }
       }
-      "Information requested": {
+      "information requested": {
         "type": "string"
       }
       },
-      "Preferred-methord(s)-of-access-to-records": {
+      "preferred-methord(s)-of-access-to-records": {
         "type": "string",
         "enum": ["Examine-original", "Receive-copy"]
       },
       },
-      "Date-signed": {
+      "date-signed": {
         "type": "string",
-        "format":"date"
+        "format":"date",
+      }
+      },
+      "request-no.": {
+        "type": "interger"
+      }
+      },
+      "date-received": {
+        "type": "string",
+        "format": "date",
+      }
+      },
+      "records-manager": {
+        "type": "string"
+      }
+      },
+      "time-limit-for-response-to-application:": {
+        "type": "string"
+      }
     }
   },
   "ui": {
