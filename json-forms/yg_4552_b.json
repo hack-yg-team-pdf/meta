@@ -16,64 +16,58 @@
       },
       "city-or-town": {
         "type": "string"
-      }
       },
-      "territory/province/country":{
-       "type": "string"
-      }
+      "territory":{
+       "type": "string",
+       "description": "territory/province/country"
       },
       "postal-code":{
         "type": "string"
-      }
       },
       "telephone": {
         "type": "string", 
         "format": "telephone",
-        "description": "daytime-telephone-number",
-      }
+        "description": "daytime-telephone-number"
       },
       "telephone-alt": {
         "type": "string", 
         "format": "telephone",
-        "description": "alternate-telephone-number",
-      }
+        "description": "alternate-telephone-number"
       },
       "fax": {
         "type": "string",
         "format": "telephone"
-      }
-      }
+      },
       "name-of-public-body": {
         "type": "string",
-        "description": "(department,-corporation-or-agency)-Please-complete-a-seperate-form-for-each-public-body)",
-      }
-      }
-      "information requested": {
+        "description": "(department,-corporation-or-agency)-Please-complete-a-seperate-form-for-each-public-body)"
+      },
+      "information-requested": {
         "type": "string"
-      }
       },
-      "preferred-methord(s)-of-access-to-records": {
+      "preferred-method-of-access-to-records": {
         "type": "string",
-        "enum": ["Examine-original", "Receive-copy"]
+        "enum": [
+          "Examine-original", 
+          "Receive-copy"
+        ]
       },
+      "signature": {
+          "type": "string",
       },
       "date-signed": {
         "type": "string",
-        "format":"date",
-      }
+        "format": "date"
       },
-      "request-no.": {
-        "type": "interger"
-      }
+      "request-no": {
+        "type": "integer"
       },
       "date-received": {
         "type": "string",
-        "format": "date",
-      }
+        "format": "date"
       },
       "records-manager": {
         "type": "string"
-      }
       },
       "time-limit-for-response-to-application:": {
         "type": "string"
