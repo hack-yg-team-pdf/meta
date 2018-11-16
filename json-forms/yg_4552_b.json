@@ -38,9 +38,18 @@
         "type": "telephone"
       }
       }
-      "Name-of-public-body": {
+      "Name-of-public-body-(department,-corporation-or-agency)-Please-complete-a-seperat-form-for-each-public-body)": {
         "type": "string"
       }
+      }
+      "Information requested": {
+        "type": "string"
+      }
+      },
+      "Preferred-methord(s)-of-access-to-records": {
+        "type": "string",
+        "enum": ["Examine-original", "Receive-copy"]
+      },
     }
   },
   "ui": {
