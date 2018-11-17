@@ -28,7 +28,9 @@ The list of all of YG's forms are [here](http://www.gov.yk.ca/forms/all.html). H
 
 ## S3
 
-Most data transfer is done over S3; in the bucket `yg-pdf`; ask Ian for an access key
+Most data transfer is done over S3; in the bucket `yg-pdf`
 
 * `s3://yg-pdf/form_jsons` - the formatted jsons in the form format ready for display
 * `s3://yg-pdf/raw_pdfs` - Scraped pdfs to be turned into jsons
+* `s3://yg-pdf/mturk_images` - Cropped images of each form field highlighted for Mechanical Turk processing to get field name
+* `mturk.csv` - Manifest of all fields to be send to Mechanical turk with blobs of text that *may* have the form field in it for a given image
