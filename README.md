@@ -24,3 +24,11 @@ The list of all of YG's forms are [here](http://www.gov.yk.ca/forms/all.html). H
 * [YG's Request for Access to Records](http://www.gov.yk.ca/forms/forms/4500/yg4552_b.pdf)
 * [YG's Spring Litter Removal](http://www.gov.yk.ca/forms/forms/6500/yg6560_e.pdf)
 * [YG's Licensed Pratical Nurses Full License Application](http://www.gov.yk.ca/forms/forms/6500/yg6644_e.pdf)
+
+
+## S3
+
+Most data transfer is done over S3; in the bucket `yg-pdf`; ask Ian for an access key
+
+* `s3://yg-pdf/form_jsons` - the formatted jsons in the form format ready for display
+* `s3://yg-pdf/raw_pdfs` - Scraped pdfs to be turned into jsons
