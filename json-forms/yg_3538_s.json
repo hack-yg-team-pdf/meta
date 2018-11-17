@@ -1,0 +1,88 @@
+{
+  "fields": {
+    "type": "object",
+    "properties": {
+      "name-first": {
+        "type": "string",
+      },
+      "name-middle": {
+      	"type": "string"
+      },
+      "name-last": {
+      	"type":"string"
+      },
+      "mailing-address": {
+        "type": "string"
+       },
+       "telephone": {
+        	"type": "string", 
+        	"format": "telephone",
+        	"description": "daytime telephone number"
+      },
+      "email": {
+      	"type": "string"
+      },
+      "board-to-serve-on":{
+      	"type": "array",
+      		"contains": {
+      			"type": "number"
+      	}
+      },
+      "age": {
+      	"type": "string",
+        "enum": [
+        	"18-34", 
+        	"35-49", 
+        	"50-65", 
+        	"65+"]
+      },
+      "Gender":	{
+      	"type": "string",
+      	"description": "gender",
+      	"more": "may differ from sex assigned at birth"
+      },
+      "language": {
+      	"type": "string",
+      	"description": "language spoken"
+      	"more": "other than english"
+      },
+      "self-identify": {
+      	"type": "string",
+      	"enum": [
+      		"an indegenous person", 
+      		"inuit", 
+      		"metis", 
+      		"first nation", 
+      		"a yukon first nations person"],
+      	"description": "do you self identify as"
+      },
+      "Name-of-first-nation": {
+      	"type": "string"
+      },
+      "disability": {
+      	"type": "string",
+      	"enum": [
+      		"a person with a disability", 
+      		"a member of a visible minority group"] 
+      },
+      "visible-group": {
+      	"type": "string"
+      },
+      "member-ethnic": {
+      	"enum": "a member of a ethnic or cultural minority group"
+      },
+      "ethnic-group": {
+      	"type": "string"
+      },
+      "francophone": {
+      	"enum": "a member of yukon francophone community"
+      },
+      "signature": {
+          "type": "string",
+      },
+      "date-signed": {
+        "type": "string",
+        "format": "date"
+        }
+    }
+}
